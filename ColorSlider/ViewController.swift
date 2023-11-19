@@ -37,7 +37,6 @@ final class ViewController: UIViewController {
         setupLabelsOfSlider()
     }
     
-  
     private func setupLabelsOfSlider() {
         redValueLabel.text = String(format: "%.2f" ,redSlider.value)
         greenValueLabel.text = String(format: "%.2f" ,greenSlider.value)
