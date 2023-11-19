@@ -21,26 +21,28 @@ final class ViewController: UIViewController {
     @IBOutlet var coloredView: UIView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        setupLabelsOfSlider()
+        SetupTextAndColorForControls()
         coloredView.layer.cornerRadius = 15
     }
     
-    @IBAction func ValueOfSliderChanges(_ sender: Any) {
+    @IBAction func ChangeValueOfSlider(_ sender: Any) {
+        SetupTextAndColorForControls()
+    }
+    
+    private func SetupTextAndColorForControls() {
         let currentColor = UIColor(
             red: CGFloat(redSlider.value),
             green: CGFloat(greenSlider.value),
             blue: CGFloat(blueSlider.value),
             alpha: 1
         )
-     
+        
         coloredView.backgroundColor = currentColor
-        setupLabelsOfSlider()
-    }
-    
-    private func setupLabelsOfSlider() {
+        
         redValueLabel.text = String(format: "%.2f" ,redSlider.value)
         greenValueLabel.text = String(format: "%.2f" ,greenSlider.value)
         blueValueLabel.text = String(format: "%.2f" ,blueSlider.value)
+        
     }
     
 }

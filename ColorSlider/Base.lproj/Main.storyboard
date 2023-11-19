@@ -97,14 +97,14 @@
                                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="150" id="Zlv-xM-mpq"/>
                                                 </constraints>
                                                 <connections>
-                                                    <action selector="ValueOfSliderChanges:" destination="BYZ-38-t0r" eventType="valueChanged" id="0kG-Wo-CNU"/>
+                                                    <action selector="ChangeValueOfSlider:" destination="BYZ-38-t0r" eventType="valueChanged" id="Pxg-e1-VG6"/>
                                                 </connections>
                                             </slider>
                                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="dTX-ah-GUt" userLabel="greenSlider">
                                                 <rect key="frame" x="-2" y="60" width="254" height="31"/>
                                                 <color key="tintColor" red="0.0" green="0.97680455450000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <connections>
-                                                    <action selector="ValueOfSliderChanges:" destination="BYZ-38-t0r" eventType="valueChanged" id="JQl-VE-6eW"/>
+                                                    <action selector="ChangeValueOfSlider:" destination="BYZ-38-t0r" eventType="valueChanged" id="7sD-sE-fU5"/>
                                                 </connections>
                                             </slider>
                                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.25" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="j6s-ws-mrF" userLabel="blueSlider">
@@ -114,7 +114,7 @@
                                                     <constraint firstAttribute="width" relation="lessThanOrEqual" constant="250" id="bmi-Ou-I5f"/>
                                                 </constraints>
                                                 <connections>
-                                                    <action selector="ValueOfSliderChanges:" destination="BYZ-38-t0r" eventType="valueChanged" id="ek9-6m-Lb4"/>
+                                                    <action selector="ChangeValueOfSlider:" destination="BYZ-38-t0r" eventType="valueChanged" id="C54-Ok-a3o"/>
                                                 </connections>
                                             </slider>
                                         </subviews>
