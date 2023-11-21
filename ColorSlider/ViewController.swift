@@ -55,8 +55,11 @@ final class ViewController: UIViewController {
     }
     private func setupSliderColors(){
         redSlider.value = Float.random(in: 0...1)
+        redValueLabel.text = String(format: "%.2f" ,redSlider.value)
         greenSlider.value = Float.random(in: 0...1)
+        greenValueLabel.text = String(format: "%.2f" ,greenSlider.value)
         blueSlider.value = Float.random(in: 0...1)
+        blueValueLabel.text = String(format: "%.2f" ,blueSlider.value)
     }
 }
 
