@@ -25,9 +25,9 @@ final class ViewController: UIViewController {
         super.viewDidLoad()
         setupColorOfView()
         coloredView.layer.cornerRadius = 15
+        setupSliderColors()
     }
     //MARK: - IB Actions
-    
     @IBAction func changeValueOfSlider(_ sender: UISlider) {
         changeValueOfLabel(sender)
         setupColorOfView()
@@ -52,6 +52,11 @@ final class ViewController: UIViewController {
             default:
                 break
         }
+    }
+    private func setupSliderColors(){
+        redSlider.value = Float.random(in: 0...1)
+        greenSlider.value = Float.random(in: 0...1)
+        blueSlider.value = Float.random(in: 0...1)
     }
 }
 
