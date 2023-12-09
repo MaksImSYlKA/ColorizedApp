@@ -153,7 +153,8 @@
 				BB9E40882B0A5A0000F856D8 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
+			path = ColorizedApp;
+			sourceTree = SOURCE_ROOT;
 		};
 		BB9E408C2B0A5A0100F856D8 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
@@ -294,7 +295,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = WZ35576C8U;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ColorSlider/Info.plist;
+				INFOPLIST_FILE = ColorizedApp/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = ColorizedApp;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -325,7 +326,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = WZ35576C8U;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ColorSlider/Info.plist;
+				INFOPLIST_FILE = ColorizedAppr/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = ColorizedApp;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
