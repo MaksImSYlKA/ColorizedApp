@@ -7,7 +7,11 @@
 
 import UIKit
 
-final class ViewController: UIViewController {
+protocol SlidersViewColorDelegate: AnyObject {
+    func setNewColor()
+}
+
+class SlidersViewController: UIViewController {
     
     // MARK: - IB Outlets
     @IBOutlet var redSlider: UISlider!
@@ -63,3 +67,8 @@ final class ViewController: UIViewController {
     }
 }
 
+extension SlidersViewController: SlidersViewColorDelegate {
+    func setNewColor() {
+        <#code#>
+    }
+}
